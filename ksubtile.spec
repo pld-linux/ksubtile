@@ -1,7 +1,7 @@
 # TODO
 #  - longer desc
 #  - Group? KDE-Group(s)?
-Summary:	KSubtile, an SRT subtitle editor
+Summary:	KSubtile, a SRT subtitle editor
 Summary(pl):	KSubtile - edytor napisów SRT
 Name:		ksubtile
 Version:	1.1_2
