@@ -3,12 +3,12 @@
 Summary:	KSubtile, a SRT subtitle editor
 Summary(pl):	KSubtile - edytor napisów SRT
 Name:		ksubtile
-Version:	1.1_2
+Version:	1.2
 Release:	1
 License:	GPL
 Group:		Applications/Editors
-Source0:	http://dl.sourceforge.net/ksubtile/%{name}_%(echo %{version} | tr _ -).tar.bz2
-# Source0-md5:	5b71edd3f9de49f9723612053f3aec8b
+Source0:	http://dl.sourceforge.net/ksubtile/%{name}-%(echo %{version} | tr _ -).tar.gz
+# Source0-md5:	2fa967e96090a1f95fb747912c5c5100
 URL:		http://ksubtile.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
