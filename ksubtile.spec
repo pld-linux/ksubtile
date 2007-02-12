@@ -1,7 +1,7 @@
 # TODO
 #  - Group? KDE-Group(s)?
 Summary:	KSubtile, a SRT subtitle editor
-Summary(pl):	KSubtile - edytor napisów SRT
+Summary(pl.UTF-8):   KSubtile - edytor napisÃ³w SRT
 Name:		ksubtile
 Version:	1.2
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is an editor for the KDE environment to edit, make and save
 subtitles in the SRT subtitle format.
 
-%description -l pl
-Ten program jest edytorem dla ¶rodowiska KDE s³u¿±cym do
-modyfikowania, tworzenia i zapisywania napisów w formacie SRT.
+%description -l pl.UTF-8
+Ten program jest edytorem dla Å›rodowiska KDE sÅ‚uÅ¼Ä…cym do
+modyfikowania, tworzenia i zapisywania napisÃ³w w formacie SRT.
 
 %prep
 %setup -q -n %{name}-%(echo %{version} | cut -d_ -f1)
