@@ -3,12 +3,12 @@
 Summary:	KSubtile, a SRT subtitle editor
 Summary(pl.UTF-8):	KSubtile - edytor napisów SRT
 Name:		ksubtile
-Version:	1.2
+Version:	1.3
 Release:	1
 License:	GPL
 Group:		Applications/Editors
-Source0:	http://dl.sourceforge.net/ksubtile/%{name}-%(echo %{version} | tr _ -).tar.gz
-# Source0-md5:	2fa967e96090a1f95fb747912c5c5100
+Source0:	http://dl.sourceforge.net/ksubtile/%{name}-%(echo %{version} | tr _ -).tar.bz2
+# Source0-md5:	51a37115d22ac4d178f019fae8d53c77
 URL:		http://ksubtile.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -34,7 +34,6 @@ echo "Categories=Qt;KDE;Utility;" >> src/%{name}.desktop
 %build
 cp -f /usr/share/automake/config.sub admin
 export UNSERMAKE=/usr/share/unsermake/unsermake
-#{__make} -f admin/Makefile.common cvs
 
 %configure \
 %if "%{_lib}" == "lib64"
